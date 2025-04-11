@@ -25,7 +25,7 @@ namespace SpeedType
         /// </remarks>
         public double CalculateWPM(string userInput, double timeTaken)
         {
-            int wordsTyped = // ////////// => TO IMPLEMENT <= //////////// //
+            int wordsTyped = userInput;
             return (wordsTyped / timeTaken) * 60;
         }
 
